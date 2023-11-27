@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Galeria de Imagens | Castlevania</title>
+		<meta name="description" content="A draggable image strip layout with a content preview powered by Draggabilly and TweenMax." />
+		<meta name="keywords" content="draggable, images, horizontal, layout, flexbox, grid, css, tweenmax, draggabilly, web design" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="icons8-lua-crescente-16.png">
+		<link rel="stylesheet" href="https://use.typekit.net/ugp0unb.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Galeria de Artes</h1>
+					<div class="frame__links">
+						<a=>Eduardo Alcânatara de Souza - </a>							
+						<a href="https://github.com/Eduardo00747">GitHub</a>
+					</div>
+				</div>
+				<h3 class="frame__subtitle">Galeria de Artes - Ayami Kojima</h3>
+				<div class="frame__indicator"></div>
+			</div>
+			<div class="strip-outer">
+				<div class="strip-inner">
+					<div class="draggable"></div>
+					<div class="strip">
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-s"><div class="img-inner" style="background-image:url('img/Dracula.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>01</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('img/Alucard.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>02</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('img/Leon.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>03</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('img/Leon2.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>04</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-s"><div class="img-inner" style="background-image:url('img/Gba.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>05</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('img/Chronacles.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>06</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-s"><div class="img-inner" style="background-image:url('img/Art.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>07</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('img/Trevor.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>08</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-s"><div class="img-inner" style="background-image:url('img/Ritcher.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>09</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer"><div class="img-inner" style="background-image:url('img/Ritcher2.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>10</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-s"><div class="img-inner" style="background-image:url('img/Dracula2.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>11</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-xl"><div class="img-inner" style="background-image:url('img/Dracula3.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>12</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-s"><div class="img-inner" style="background-image:url('img/Dracula4.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>13</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('img/Issac.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>14</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-s"><div class="img-inner" style="background-image:url('img/Alucard2.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>15</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-l"><div class="img-inner" style="background-image:url('img/Alucard3.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>16</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-m"><div class="img-inner" style="background-image:url('img/Dracula5.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>17</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer"><div class="img-inner" style="background-image:url('img/Dracula7.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>18</span></a><span class="strip__item-plus"></span></span>
+						</div>
+						<div class="strip__item">
+							<div class="img-outer img-outer--size-s"><div class="img-inner" style="background-image:url('img/Dracula8.jpg');"></div></div>
+							<span class="strip__item-number"><a class="strip__item-link"><span>19</span></a><span class="strip__item-plus"></span></span>
+						</div>
+					</div><!--/strip-->
+				</div><!--/strip-inner-->
+				<div class="strip-cover">
+					<h2 class="strip-cover__title">Galeria</h2>
+					<span class="strip-cover__subtitle">Ayami Kojima</span>
+				</div>
+			</div><!--/strip-outer-->
+			<div class="content">
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Dracula.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Alucard.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Leon.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Leon2.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Gba.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Chronacles.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Art.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Trevor.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Ritcher.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Ritcher2.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Dracula2.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Dracula3.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Dracula4.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Issac.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Alucard2.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Alucard3.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Dracula5.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Dracula7.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-outer img-outer--content">
+						<div class="img-inner img-inner--content" style="background-image: url(img/Dracula8.jpg);"></div>
+					</div>
+					<div class="content__item-copy">
+						<h2 class="content__item-title">Ayami Kojima</h2>
+					</div>
+				</article>
+				<button class="content__close" aria-label="Close content"><svg width="12" height="26" viewBox="0 0 12 26"><path d="M5.293 25H5v-.293l-5-5L.707 19 5 23.293V0h1v23.657L10.657 19l.707.707-5.657 5.657-.025-.025-.025.025L5.293 25z"/></svg></svg></button>
+			</div>
+		</main>
+		<div class="cursor">
+			<div class="cursor__inner cursor__inner--circle">
+				<div class="cursor__side cursor__side--left"></div>
+				<div class="cursor__side cursor__side--right"></div>
+			</div>
+		</div>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/draggabilly.pkgd.min.js"></script>
+		<script src="js/demo.js"></script>
+		<script>
+			// Preload all the images in the page
+			imagesLoaded(document.querySelectorAll('.img-inner'), {background: true}, () => document.body.classList.remove('loading'));
+		</script>
+	</body>
+</html>

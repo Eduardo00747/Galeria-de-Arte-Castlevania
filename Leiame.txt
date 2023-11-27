@@ -1,0 +1,26 @@
+LINK DE REFEREBCUA 
+
+https://tympanus.net/codrops/2019/06/11/draggable-image-strip/
+
+ALTERAÇÕES
+
+	Alterado as imagens
+	Como as imagens são exibidas quando clicamos no numero da mesma  
+	Adicionadoa a referencia da artista das artes
+	Adicionado link ao meu Git Hub
+	
+
+COMO FUNCIONA 
+
+	Ao abrir o link, segure o botão esquerdo do mouse para navegar entre as fotos
+	Ao clicar no numero da foto a mesmo irá ser ampliada 
+
+ALTERÇÕES DESEJADAS 
+
+	Gostaria de colocar um link para que ao clicar o mesmo sejá direcionada para a pagina de TimeLine do game, mas até o momento ainda não descobrir como faze-lo 
+
+
+OBS: ADICONE A PASTA ZIPADA DENTRO DO SERVIDOR WAMP SERVER PARA QUE A PAGINA FUNCIONE CORRETAMENTE !
+
+
+	
